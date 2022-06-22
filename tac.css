@@ -1,0 +1,74 @@
+	/* heading */
+	h1 {
+		color: black;
+		font-size: 45px;
+		font-family: 'Staatliches';
+	}
+
+	/* boxes */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 100px;
+		height: 80px;
+		border: 1px solid black;
+		color: grey;
+		font-size: 50px;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		position:static;
+		font-family: 'Permanent Marker';
+		font-style: italic;
+	}
+
+	/* restart */
+	#restart {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid black;
+		margin: auto;
+		background-color: black;
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+		font-family: 'Staatliches';
+	}
+
+	/* player turn */
+	#playerturn {
+		font-family: 'Staatliches';
+		color: black;
+		font-size: 30px;
+	}
+
+	#main {
+		text-align: center;
+		font-family: 'Staatliches';
+		color: black;
+	}
+
+	/* instruction */
+	#instructions {
+		font-family: 'Staatliches';
+		color: black;
+		font-size: 17px;
+	}
+
+
+	/* remove border for edges */
+	#b1, #b2, #b3 {
+	border-top: none;
+	}
+
+	#b1, #b4, #b7 {
+	border-left: none;
+	}
+
+	#b3, #b6, #b9 {
+	border-right: none;
+	}
+
+	#b7, #b8, #b9 {
+	border-bottom: none;
+	}

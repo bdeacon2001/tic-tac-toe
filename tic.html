@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+   
+<head>
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="tac.css">
+   
+    <script src="toe.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Staatliches&display=swap" rel="stylesheet">
+    <title>Tic Tac Toe</title>
+</head>
+   
+<body>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+   
+        <!-- instructions -->
+        <p id="instructions">Player X goes First<br>Player O goes Second
+        </p>
+
+        <br><br>
+
+        <!-- 3*3 of boxes -->
+        <input type="text" id="b1" onclick=
+            "checkTurn1(); ticTacToe();" readonly>
+   
+        <input type="text" id="b2" onclick=
+            "checkTurn2(); ticTacToe();" readonly>
+   
+        <input type="text" id="b3" onclick=
+            "checkTurn3(); ticTacToe();" readonly>
+        <br>
+   
+        <input type="text" id="b4" onclick=
+            "checkTurn4(); ticTacToe();" readonly>
+               
+        <input type="text" id="b5" onclick=
+            "checkTurn5(); ticTacToe();" readonly>
+   
+        <input type="text" id="b6" onclick=
+            "checkTurn6(); ticTacToe();" readonly>
+        <br>
+   
+        <input type="text" id="b7" onclick=
+            "checkTurn7(); ticTacToe();" readonly>
+   
+        <input type="text" id="b8" onclick=
+            "checkTurn8(); ticTacToe();" readonly>
+   
+        <input type="text" id="b9" onclick=
+            "checkTurn9(); ticTacToe();" readonly>
+   
+        <!-- Grid end here  -->
+
+           <!-- player turn -->
+           <p id='playerturn'></p>
+        
+        <br>
+        <!-- Button to reset game -->
+        <button id="restart" onclick="reset()">
+            RESTART
+        </button>
+   
+        <br><br>
+        
+    </div>
+</body>
+   
+</html>
