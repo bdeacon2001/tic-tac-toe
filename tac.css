@@ -1,6 +1,6 @@
 	/* heading */
 h1 {
-	color: black;
+	color: white;
 	font-size: 45px;
 	font-family: 'Staatliches';
 }
@@ -11,12 +11,13 @@ h1 {
 	box-sizing: border-box;
 	width: 150px;
 	height: 120px;
-	border: 5px solid black;
-	color: grey;
+	border: 5px solid white;
+	color: white;
 	font-size: 95px;
 	text-align: center;;
 	font-family: 'Permanent Marker';
 	font-style: italic;
+	background-color: rgb(55, 131, 25, 0.0);
 }
 
 	/* restart */
@@ -24,32 +25,32 @@ h1 {
 	box-sizing: border-box;
 	width: 95px;
 	height: 40px;
-	border: 1px solid black;
+	border: 1px solid white;
 	margin: auto;
-	background-color: black;
 	color: white;
 	font-size: 20px;
 	cursor: pointer;
 	font-family: 'Staatliches';
+	background: none;
 }
 
 	/* player turn */
 #playerturn {
 	font-family: 'Staatliches';
-	color: black;
+	color: white;
 	font-size: 30px;
 }
 
 #main {
 	text-align: center;
 	font-family: 'Staatliches';
-	color: black;
+	color: white;
 }
 
 	/* instruction */
 #instructions {
 	font-family: 'Staatliches';
-	color: black;
+	color: white;
 	font-size: 20px;
 }
 
@@ -78,10 +79,13 @@ h1 {
 body {
 	display: block;
 	margin: 0;
+	background-image: url("http://clipart-library.com/img1/1324938.jpg");
+	background-color: black;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
-#audio {
-	color: white;
-	display: none;
+#foobar { 
+	display: none 
 }
 

@@ -239,6 +239,10 @@ play9 = () => {
 	let b9 = document.getElementById("b9audio");
     b9.play();
 }
+playRestart = () => {
+	let playRestart = document.getElementById("playRestart");
+    playRestart.play();
+}
 
 
 
