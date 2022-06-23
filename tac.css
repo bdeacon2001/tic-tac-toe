@@ -8,15 +8,13 @@
 	/* boxes */
 	#b1, #b2, #b3, #b4, #b5,
 	#b6, #b7, #b8, #b9 {
-		width: 100px;
-		height: 80px;
-		border: 1px solid black;
+		box-sizing: border-box;
+		width: 150px;
+		height: 120px;
+		border: 5px solid black;
 		color: grey;
-		font-size: 50px;
-		text-align: center;
-		align-items: center;
-		justify-content: center;
-		position:static;
+		font-size: 95px;
+		text-align: center;;
 		font-family: 'Permanent Marker';
 		font-style: italic;
 	}
@@ -52,23 +50,32 @@
 	#instructions {
 		font-family: 'Staatliches';
 		color: black;
-		font-size: 17px;
+		font-size: 20px;
 	}
 
 
 	/* remove border for edges */
 	#b1, #b2, #b3 {
 	border-top: none;
+	border-bottom: none;
 	}
 
 	#b1, #b4, #b7 {
 	border-left: none;
+	border-right: none;
 	}
 
 	#b3, #b6, #b9 {
 	border-right: none;
+	border-left: none;
 	}
 
 	#b7, #b8, #b9 {
 	border-bottom: none;
+	border-top: none;
+	}
+
+	body {
+		display: block;
+		margin: 0;
 	}
