@@ -1,6 +1,7 @@
 // Function called whenever user tab on any box
 ticTacToe = () => {
 
+	
 	// Setting DOM to all boxes or input field
 	let box1, box2, box3, box4, box5, box6, box7, box8, box9;
 	box1 = document.getElementById("b1").value;
@@ -187,8 +188,7 @@ ticTacToe = () => {
         box8 == 'O') && (box9 == 'X' || box9 == 'O')) {
             document.getElementById('playerturn')
                 .innerHTML = "Match Tie";
-    }
-    else {
+    } else {
  
         // printing result
         if (flag == 1) {
@@ -201,6 +201,47 @@ ticTacToe = () => {
         }
     }
 }
+
+
+play1 = () => {
+	let b1 = document.getElementById("b1audio");
+    b1.play();
+}
+play2 = () => {
+	let b2 = document.getElementById("b2audio");
+    b2.play();
+}
+play3 = () => {
+	let b3 = document.getElementById("b3audio");
+    b3.play();
+}
+play4 = () => {
+	let b4 = document.getElementById("b4audio");
+    b4.play();
+}
+play5 = () => {
+	let b5 = document.getElementById("b5audio");
+    b5.play();
+}
+play6 = () => {
+	let b6 = document.getElementById("b6audio");
+    b6.play();
+}
+play7 = () => {
+	let b7 = document.getElementById("b7audio");
+    b7.play();
+}
+play8 = () => {
+	let b8 = document.getElementById("b8audio");
+    b8.play();
+}
+play9 = () => {
+	let b9 = document.getElementById("b9audio");
+    b9.play();
+}
+
+
+
 
 // Function to reset game
 reset = () => {
