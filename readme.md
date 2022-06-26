@@ -1,5 +1,5 @@
 # TIC-TAC-TOE
-
+[tic-tac-toe](https://bdeacon2001.github.io/tic-tac-toe/)
 ## Technology
 1. HTML
 1. CSS
